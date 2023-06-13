@@ -2,7 +2,8 @@ def is_palindrome_iterative(word):
     if not word:
         return False
 
-    word = word.lower().replace(" ", "")  # Converter para minúsculas e remover espaços
+    # Converter para minúsculas e remover espaços
+    word = word.lower().replace(" ", "")
     length = len(word)
 
     for i in range(length // 2):
